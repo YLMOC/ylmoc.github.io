@@ -158,7 +158,7 @@
   .btn-primary:hover{background:var(--brass-soft);}
   .btn-ghost{
   border-color:rgba(237,230,214,0.3);
-  color:var(--brass); /* 改成深黃色，與「查看2026年度活動」按鈕背景色一致 */
+  color:var(--brass); 
 }
 .btn-ghost:hover{border-color:var(--brass);color:var(--brass-soft);}
   .btn-ghost:hover{border-color:var(--brass);color:var(--brass-soft);}
@@ -257,7 +257,7 @@
 
 <header>
   <div class="nav-wrap">
-    <div class="brand"><span class="mark"></span>宜蘭高中暑期數學奧林匹亞研習營</div>
+    <div class="brand"><span class="mark"></span>宜蘭高中數學奧林匹亞研習營</div>
     <nav class="primary">
       <div class="nav-item active" data-page="home" onclick="goTo('home')">首頁</div>
       <div class="dropdown" id="archiveDropdown">
@@ -290,38 +290,35 @@
 
   <section class="block">
     <h2>關於本活動</h2>
-    <div class="sub">本活動緣起於2022年起，本校為培養數學競賽人才，拓展學生視野，邀請校友-中央大學教授 俞韋亘 教授返校進行奧林匹亞實作與演講。<br>自2025年起，本活動擴大舉行，邀請本校畢業學長姊</div>
-    <p style="color:var(--text-dim);max-width:70ch;">此區放置活動的完整介紹：活動宗旨、緣起、預期效益、適合對象等文字內容。目前為版面配置，實際文案請後續補上。</p>
+    <div class="sub">本活動緣起於2022年起，本校為培養數學競賽人才，拓展學生視野，邀請校友-中央大學教授 俞韋亘 教授返校進行奧林匹亞實作與演講。<br>
+      自2025年起，本活動擴大舉行，邀請本校畢業學長姊返校組織三天至四天的研習營。</div>
   </section>
 
   <section class="block">
-    <h2>活動特色</h2>
-    <div class="sub">HIGHLIGHTS — 以卡片呈現活動亮點，可依需要增減張數</div>
+    <h2>活動內容</h2>
+    <div class="sub">參加YLMOC，我們課程包含</div>
     <div class="card-grid">
       <div class="card">
-        <h3>特色一</h3>
-        <p>說明文字待補。可介紹活動的其中一項重點內容或亮點。</p>
-        <span class="placeholder-note">待補內容</span>
+        <h3>領域課程</h3>
+        <p>分成A(代數)、C(組合)、G(幾何)、N(數論)四大領域。針對單一專題進行教學。</p>
       </div>
       <div class="card">
-        <h3>特色二</h3>
-        <p>說明文字待補。可介紹活動的其中一項重點內容或亮點。</p>
-        <span class="placeholder-note">待補內容</span>
+        <h3>教授專題演講</h3>
+        <p>由教授帶來數學研究上的小故事以及相關科普講座，拓展學生對於數學的視野。</p>
       </div>
       <div class="card">
-        <h3>特色三</h3>
-        <p>說明文字待補。可介紹活動的其中一項重點內容或亮點。</p>
-        <span class="placeholder-note">待補內容</span>
+        <h3>模擬競賽實作</h3>
+        <p>透過小組模擬競賽，體驗真實賽場上面對題目時的思考與策略制定。</p>
       </div>
     </div>
   </section>
 
   <section class="block">
-    <h2>快速入口</h2>
-    <div class="sub">QUICK LINKS — 導向各年度活動頁面</div>
+    <h2>贊助廠商</h2>
+    <div class="sub">Sponsors — 感謝廠商贊助</div>
     <div class="card-grid" style="grid-template-columns:repeat(2,1fr);">
-      <div class="card" style="cursor:pointer;" onclick="goTo('archive','2026')">
-        <h3>2026 年度活動 →</h3>
+      <a class="card" style="cursor:pointer;display:block;" href="https://www.janestreet.com/" target="_blank" rel="noopener">
+        <img src="jane-street-logo.png" alt="Jane Street" style="height:28px;margin-bottom:14px;filter:invert(1);">
         <p>本年度活動主題與詳細資訊，內容準備中。</p>
       </div>
       <div class="card" style="cursor:pointer;" onclick="goTo('archive','2025')">
@@ -332,8 +329,8 @@
   </section>
 
   <footer>
-    <div>© 2026 年度活動檔案室</div>
-    <div>聯絡資訊 / 主辦單位名稱待補</div>
+    <div>© 宜蘭高中數學奧林匹亞研習營 YLMOC </div>
+    <div>聯絡資訊 / yilanmoc@gmail.com</div>
   </footer>
 </main>
 
