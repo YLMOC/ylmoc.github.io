@@ -133,7 +133,16 @@
     font-family:var(--mono);font-size:0.8rem;color:var(--text-dim);
     letter-spacing:0.1em;margin-top:8px;
   }
-
+  .news-list{border-top:1px solid rgba(255,255,255,0.08);}
+  .news-item{
+    display:flex;align-items:baseline;gap:22px;
+    padding:16px 4px;border-bottom:1px solid rgba(255,255,255,0.08);
+  }
+  .news-item .news-date{
+    font-family:var(--mono);font-size:0.85rem;color:var(--brass);
+    flex:0 0 auto;letter-spacing:0.02em;
+  }
+  .news-item .news-text{color:var(--text-light);font-size:0.95rem;}
   section.block{max-width:1120px;margin:0 auto;padding:60px 28px;}
   section.block + section.block{border-top:1px solid rgba(255,255,255,0.06);}
   .block h2{
